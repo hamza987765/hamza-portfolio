@@ -29,7 +29,7 @@ function App() {
             </div>
 
             <p className="hero-eyebrow">
-              SOFTWARE ENGINEER & DEVELOPER
+              SOFTWARE DEVELOPMENT & WORKFLOW AUTOMATION
             </p>
 
             <h1>
@@ -41,9 +41,9 @@ function App() {
             </h1>
 
             <p className="hero-description">
-              Software Engineering graduate passionate about building
-              practical software solutions, automation systems, and
-              technology-driven applications.
+              Software Engineering graduate focused on building practical
+              applications, automating repetitive workflows, and developing
+              technology solutions that improve operational efficiency.
             </p>
 
             <div className="hero-buttons">
@@ -53,7 +53,10 @@ function App() {
                 <ArrowUpRight size={18} />
               </a>
 
-              <a href="#contact" className="secondary-button">
+              <a
+                href="mailto:Hamzakhattak9911@gmail.com"
+                className="secondary-button"
+              >
                 Contact Me
               </a>
 
@@ -99,14 +102,16 @@ function App() {
                 <span className="card-dots">•••</span>
               </div>
 
-              <div className="profile-icon">
-                H
-              </div>
+              <img
+                src="/profile.jpg"
+                alt="Profile"
+                className="profile-photo"
+              />
 
               <h2>Hamza Khattak</h2>
 
               <p className="profile-role">
-                Software Engineer
+                Software Developer | Project Coordinator
               </p>
 
               <div className="profile-divider"></div>
@@ -115,17 +120,17 @@ function App() {
 
                 <div>
                   <span>Focus</span>
-                  <strong>Software Development</strong>
+                  <strong>Software & Workflow Automation</strong>
                 </div>
 
                 <div>
                   <span>Specialization</span>
-                  <strong>Python & Web Technologies</strong>
+                  <strong>Python & Web Development</strong>
                 </div>
 
                 <div>
                   <span>Industry</span>
-                  <strong>Software / Telecom</strong>
+                  <strong>Software / Telecommunications</strong>
                 </div>
 
               </div>
@@ -181,31 +186,38 @@ function App() {
             <div className="about-text">
 
               <h3>
-                Bridging technology,
-                <span> engineering and innovation.</span>
+                Turning ideas into
+                <span> practical technology solutions.</span>
               </h3>
 
               <p>
                 I'm Hamza Khattak, a Software Engineering graduate
-                interested in developing practical technology
-                solutions that solve real-world problems.
+                with an interest in application development, workflow
+                automation, and solving practical problems through code.
               </p>
 
               <p>
-                My professional experience in the telecommunications
-                industry has given me exposure to project coordination,
-                operational workflows, and technology-driven environments.
+                I currently work as a Project Coordinator at Nokia Networks,
+                where I coordinate telecom field operations and track
+                site activities performed by field engineers.
               </p>
 
               <p>
-                Alongside my professional work, I enjoy developing
-                applications using Python, exploring backend technologies,
-                and building automation solutions.
+                Alongside my professional responsibilities, I develop
+                dashboards, applications, and websites to simplify
+                repetitive tasks, reduce manual effort, and improve
+                operational efficiency through automation.
               </p>
 
               <p>
-                I'm continuously expanding my knowledge in software
-                engineering, networking, and cybersecurity.
+                My development work involves Python, JavaScript, React,
+                Flask, FastAPI, SQL, and SQLite. I also have basic
+                experience with UI/UX design using Figma.
+              </p>
+
+              <p>
+                I'm currently expanding my knowledge in Power BI,
+                cybersecurity, and modern software development practices.
               </p>
 
               <a href="#contact" className="about-button">
@@ -237,27 +249,24 @@ function App() {
               <div className="about-info-card">
                 <span className="info-icon">💻</span>
                 <div>
-                  <span className="info-label">TECHNICAL INTERESTS</span>
-                  <h4>Software & Backend Development</h4>
-                  <p>Python · APIs · Automation</p>
+                  <span className="info-label">TECHNICAL FOCUS</span>
+                  <h4>Software & Automation</h4>
+                  <p>Python · React · APIs · Dashboards</p>
                 </div>
               </div>
 
               <div className="about-info-card">
                 <span className="info-icon">🎯</span>
                 <div>
-                  <span className="info-label">CAREER DIRECTION</span>
-                  <h4>Software Engineering & Cybersecurity</h4>
-                  <p>Continuous learning and development</p>
+                  <span className="info-label">CURRENT LEARNING</span>
+                  <h4>Cybersecurity & Data Analytics</h4>
+                  <p>Cybersecurity · Power BI</p>
                 </div>
               </div>
 
             </div>
-
           </div>
-
         </div>
-
       </section>
 
 
@@ -327,11 +336,6 @@ function App() {
                   <span>SQLite</span>
                 </div>
 
-                <div className="project-links">
-                  <a href="#contact">View Project ↗</a>
-                  <a href="#contact">Source Code ↗</a>
-                </div>
-
               </div>
 
             </article>
@@ -382,12 +386,6 @@ function App() {
                   <span>Librosa</span>
                   <span>FFmpeg</span>
                 </div>
-
-                <div className="project-links">
-                  <a href="#contact">View Project ↗</a>
-                  <a href="#contact">Source Code ↗</a>
-                </div>
-
               </div>
 
             </article>
@@ -427,12 +425,50 @@ function App() {
                   <span>HTML</span>
                   <span>CSS</span>
                 </div>
+              </div>
 
-                <div className="project-links">
-                  <a href="#contact">Live Website ↗</a>
-                  <a href="#contact">Source Code ↗</a>
+            </article>
+
+
+            {/* PROJECT 4 */}
+
+            <article className="project-card">
+
+              <div className="project-preview carpro-preview">
+
+                <div className="carpro-icon">🚗</div>
+
+                <div className="carpro-content">
+                  <span>ROADSIDE ASSISTANCE</span>
+                  <strong>CarProSolution</strong>
+                  <small>MECHANIC FINDER & SERVICE BOOKING</small>
                 </div>
 
+                <div className="carpro-pin">📍</div>
+
+              </div>
+
+              <div className="project-info">
+
+                <span className="project-category">
+                  MOBILE APPLICATION · LOCATION-BASED
+                </span>
+
+                <h3>CarProSolution</h3>
+
+                <p>
+                  A mobile application that helps drivers find nearby
+                  mechanics and vehicle repair workshops during breakdowns.
+                  Users can locate service providers through Google Maps,
+                  contact mechanics directly, and schedule repair services.
+                </p>
+
+                <div className="project-tech">
+                  <span>Flutter</span>
+                  <span>Dart</span>
+                  <span>Firebase</span>
+                  <span>Google Maps</span>
+                </div>
               </div>
 
             </article>

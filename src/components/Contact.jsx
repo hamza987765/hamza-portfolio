@@ -23,14 +23,15 @@ function Contact() {
               professional opportunity, feel free to reach out.
             </p>
 
-            <a
-              href="mailto:YOUR_EMAIL@example.com"
-              className="contact-email-button"
-            >
-              <Mail size={18} />
+            
+          <a
+            href="mailto:Hamzakhattak9911@gmail.com?subject=Inquiry%20from%20Your%20Portfolio"
+            className="contact-email-button"
+          >
+            <Mail size={18} />
               Get in Touch
-              <ArrowUpRight size={18} />
-            </a>
+            <ArrowUpRight size={18} />
+          </a>
           </div>
 
           <div className="contact-details">

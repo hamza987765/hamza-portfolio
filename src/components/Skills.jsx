@@ -1,4 +1,5 @@
 
+
 const skillGroups = [
   {
     number: '01',
@@ -12,13 +13,36 @@ const skillGroups = [
   },
   {
     number: '03',
-    title: 'Databases & Tools',
-    skills: ['SQLite', 'SQL', 'Git', 'GitHub', 'Power BI'],
+    title: 'Automation & Productivity',
+    skills: [
+      'Workflow Automation',
+      'Dashboard Development',
+      'Advanced Excel',
+      'Application Development',
+    ],
   },
   {
     number: '04',
-    title: 'Networking & Security',
-    skills: ['Networking Fundamentals', 'Telecom Networks', 'Cybersecurity Fundamentals', 'RAN Concepts'],
+    title: 'Databases & Development Tools',
+    skills: ['SQL', 'SQLite', 'Git', 'GitHub'],
+  },
+  {
+    number: '05',
+    title: 'UI/UX & Telecom',
+    skills: [
+      'Figma (Basic)',
+      'Networking Fundamentals',
+      'Telecom Networks',
+      'RAN Concepts',
+    ],
+  },
+  {
+    number: '06',
+    title: 'Currently Learning',
+    skills: [
+      'Power BI',
+      'Cybersecurity Fundamentals',
+    ],
   },
 ]
 
@@ -30,8 +54,9 @@ function Skills() {
           <span className="section-label">MY EXPERTISE</span>
           <h2>Skills & <span>Technologies</span></h2>
           <p>
-            Technologies and technical areas I use to build, manage,
-            and understand software systems.
+            Technologies and tools I use to develop applications,
+            automate workflows, build dashboards, and support
+            operational processes.
           </p>
         </div>
 

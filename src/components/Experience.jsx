@@ -1,28 +1,31 @@
 
 const experiences = [
-  {
-    period: 'Professional Experience',
-    role: 'Project Coordinator',
-    company: 'Nokia Networks',
-    description:
-      'Coordinate operational activities and support field teams by organizing project resources, tracking execution, and maintaining activity records.',
-    responsibilities: [
-      'Coordinate vehicle arrangements for engineers conducting field activities.',
-      'Track field journeys, site visits, and activity progress.',
-      'Maintain operational records and reporting through Excel.',
-      'Explore workflow automation and dashboard solutions to improve visibility.',
-    ],
-    type: 'work',
-  },
+  
+{
+  period: 'Professional Experience',
+  role: 'Project Coordinator',
+  company: 'Nokia Networks',
+  description:
+    'Coordinate telecom field operations while applying software development and automation to improve the efficiency of repetitive operational workflows.',
+  responsibilities: [
+    'Coordinate vehicle arrangements and operational resources for engineers conducting field activities.',
+    'Track field journeys, site visits, engineer movements, and deployment progress.',
+    'Build dashboards, applications, and custom software tools to automate time-consuming processes through professional and personal projects.',
+    'Use Python, JavaScript, and Excel-based solutions to improve data handling and operational efficiency.',
+    'Identify opportunities to replace repetitive manual processes with faster digital workflows.',
+  ],
+  type: 'work',
+},
+
   {
     period: 'Academic Background',
     role: 'BS Software Engineering',
     company: 'Graduate · 2024',
     description:
-      'Built a foundation in software engineering, programming, databases, and application development.',
+      'Developed an academic foundation in software engineering, programming, databases, and software development principles.',
     responsibilities: [
-      'Studied software development principles and programming.',
-      'Developed practical experience with Python and web technologies.',
+      'Studied software development methodologies and programming concepts.',
+      'Built foundational knowledge of databases and application development.',
       'Applied software engineering concepts through academic and personal projects.',
     ],
     type: 'education',
@@ -37,8 +40,8 @@ function Experience() {
           <span className="section-label">MY JOURNEY</span>
           <h2>Experience & <span>Education</span></h2>
           <p>
-            My professional experience and academic foundation in
-            software engineering.
+            My professional experience in telecom operations,
+            workflow automation, and software engineering.
           </p>
         </div>
 
