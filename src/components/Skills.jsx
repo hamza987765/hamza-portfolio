@@ -4,7 +4,7 @@ const skillGroups = [
   {
     number: '01',
     title: 'Programming & Frontend',
-    skills: ['Python', 'JavaScript', 'React', 'HTML5', 'CSS3'],
+    skills: ['Python', 'JavaScript', 'React', 'HTML5', 'CSS3', 'Flutter', 'Dart'],
   },
   {
     number: '02',
